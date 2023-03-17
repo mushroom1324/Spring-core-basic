@@ -8,12 +8,17 @@ group = 'hello'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '17'
 
+
 repositories {
 	mavenCentral()
 }
 
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter'
+
+	// lombok
+	implementation 'org.projectlombok:lombok'
+
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 
